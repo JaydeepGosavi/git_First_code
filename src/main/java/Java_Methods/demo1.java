@@ -9,7 +9,7 @@ public static String palidrome(String a)
 {
 	Scanner sc=new Scanner(System.in);
 	
-	a=sc.nextLine();
+	a=sc.next();
 	String rev="";
 	
 	for(int i= a.length()-1;i>=0;i--)
